@@ -1,0 +1,40 @@
+{
+  "name": "slack-alias-plugin",
+  "description": "Autoexpand @aliases beyond @group and @channel.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gsingers/slack-alias-plugin",
+  "author": {
+    "name": "Grant Ingersoll",
+    "email": "gsingers@apache.org",
+    "url": "http://grantingersoll.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gsingers/slack-alias-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gsingers/slack-alias-plugin/issues"
+  },
+  "licenses": [
+    {
+      "type": "ASL",
+      "url": "https://github.com/gsingers/slack-alias-plugin/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "request": "~2.33.0",
+    "underscore": "^1.7.0",
+    "node-slackbot": "0.0.6"
+  },
+  "devDependencies": {},
+  "bin": {
+    "bot": "bin/bot.js"
+  },
+  "keywords": [
+    "slack",
+    "aliases"
+  ]
+}
