@@ -48,9 +48,7 @@ This will launch the bot in your terminal based on provided configuration.
 ## Configuration
 
 - `token`: Your Slack API token, get your token at https://api.slack.com/
-- `jira_urls`: A mapping of JIRA project names to the URL that can display that JIRA issue, i.e. SOLR -> https://issues.apache.org/jira/browse/
-- `projects`: A list of JIRA project names, as in SOLR, MAHOUT, LUCENE
-- `post`: If true, then post a new msg, else update the current one
+- `alias_maps`: The mappings between alias names and values.  For instance, a mention of @FOO will expand to @bar in the channel
 - `verbose`: print logging info
 - `emoji`: The emoji to use for the bot.  You may need to create a JIRA emoji for the current one to work, else replace w/ your favorite slack emoji
 - `link_separator`: The text to use to separate links in the response.
