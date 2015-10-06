@@ -1,4 +1,4 @@
-# Slack JIRA Plugin
+# Slack Alias Plugin
 
 A Slack plugin for expanding aliases to actual people  
 
